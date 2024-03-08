@@ -44,11 +44,11 @@ The site follows the MVC (Model-View-Controller) architecture for better organiz
 - GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 
 ## Usage
--Start the server: npm start
--Access the site through the provided URL.
--Register/Login to access the weather features.
--Use the search bar to search for weather information by city name.
--Use the "Current Location" option to retrieve weather information based on your current location.
+- Start the server: npm start
+- Access the site through the provided URL.
+- Register/Login to access the weather features.
+- Use the search bar to search for weather information by city name.
+- Use the "Current Location" option to retrieve weather information based on your current location.
 
 ## MVC Structure
 The project follows the MVC architecture for better organization and separation of concerns.
