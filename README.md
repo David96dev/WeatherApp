@@ -34,14 +34,14 @@ The site follows the MVC (Model-View-Controller) architecture for better organiz
 - User authentication for security.
 
 ## Installation
--Clone the repository: git clone https://github.com/your-repository.git
--Install dependencies: npm install
--Set up environment variables:
--Create a .env file in the root directory.
--Add the following variables:
--makefile
--OPENWEATHER_API_KEY=your_openweather_api_key
--GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+- Clone the repository: git clone https://github.com/your-repository.git
+- Install dependencies: npm install
+- Set up environment variables:
+- Create a .env file in the root directory.
+- Add the following variables:
+- makefile
+- OPENWEATHER_API_KEY=your_openweather_api_key
+- GOOGLE_MAPS_API_KEY=your_google_maps_api_key
 
 ## Usage
 -Start the server: npm start
