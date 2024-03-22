@@ -29,3 +29,34 @@ C:\Users\David\Desktop\Software_App\Exam\WeatherApp\WeatherApp_v1\WeatherApp_v1\
 C:\Users\David\Desktop\Software_App\Exam\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\WeatherApp_v1.pdb
 C:\Users\David\Desktop\Software_App\Exam\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\WeatherApp_v1.genruntimeconfig.cache
 C:\Users\David\Desktop\Software_App\Exam\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\ref\WeatherApp_v1.dll
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\bin\Debug\net8.0\appsettings.json
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\bin\Debug\net8.0\WeatherApp_v1.staticwebassets.runtime.json
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\bin\Debug\net8.0\WeatherApp_v1.exe
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\bin\Debug\net8.0\WeatherApp_v1.deps.json
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\bin\Debug\net8.0\WeatherApp_v1.runtimeconfig.json
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\bin\Debug\net8.0\WeatherApp_v1.dll
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\bin\Debug\net8.0\WeatherApp_v1.pdb
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\WeatherApp_v1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\WeatherApp_v1.AssemblyInfoInputs.cache
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\WeatherApp_v1.AssemblyInfo.cs
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\WeatherApp_v1.csproj.CoreCompileInputs.cache
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\WeatherApp_v1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\WeatherApp_v1.RazorAssemblyInfo.cache
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\WeatherApp_v1.RazorAssemblyInfo.cs
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\WeatherApp_v1.sourcelink.json
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\staticwebassets\msbuild.WeatherApp_v1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\staticwebassets\msbuild.build.WeatherApp_v1.props
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WeatherApp_v1.props
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WeatherApp_v1.props
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\scopedcss\bundle\WeatherApp_v1.styles.css
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\scopedcss\projectbundle\WeatherApp_v1.bundle.scp.css
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\WeatherApp_v1.dll
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\refint\WeatherApp_v1.dll
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\WeatherApp_v1.pdb
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\WeatherApp_v1.genruntimeconfig.cache
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\obj\Debug\net8.0\ref\WeatherApp_v1.dll
