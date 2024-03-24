@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{634BBF32-C467-4186-B9EA-5FC3016750A4}|WeatherApp_v1\\WeatherApp_v1.csproj|c:\\users\\yassi\\desktop\\prog\\programming in application\\exam_weatherapp\\weatherapp\\weatherapp_v1\\weatherapp_v1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{634BBF32-C467-4186-B9EA-5FC3016750A4}|WeatherApp_v1\\WeatherApp_v1.csproj|solutionrelative:weatherapp_v1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{634BBF32-C467-4186-B9EA-5FC3016750A4}|WeatherApp_v1\\WeatherApp_v1.csproj|c:\\users\\yassi\\desktop\\prog\\programming in application\\exam_weatherapp\\weatherapp\\weatherapp_v1\\weatherapp_v1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{634BBF32-C467-4186-B9EA-5FC3016750A4}|WeatherApp_v1\\WeatherApp_v1.csproj|solutionrelative:weatherapp_v1\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{634BBF32-C467-4186-B9EA-5FC3016750A4}|WeatherApp_v1\\WeatherApp_v1.csproj|c:\\users\\yassi\\desktop\\prog\\programming in application\\exam_weatherapp\\weatherapp\\weatherapp_v1\\weatherapp_v1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{634BBF32-C467-4186-B9EA-5FC3016750A4}|WeatherApp_v1\\WeatherApp_v1.csproj|solutionrelative:weatherapp_v1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{634BBF32-C467-4186-B9EA-5FC3016750A4}|WeatherApp_v1\\WeatherApp_v1.csproj|c:\\users\\yassi\\desktop\\prog\\programming in application\\exam_weatherapp\\weatherapp\\weatherapp_v1\\weatherapp_v1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{634BBF32-C467-4186-B9EA-5FC3016750A4}|WeatherApp_v1\\WeatherApp_v1.csproj|solutionrelative:weatherapp_v1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{634BBF32-C467-4186-B9EA-5FC3016750A4}|WeatherApp_v1\\WeatherApp_v1.csproj|c:\\users\\yassi\\desktop\\prog\\programming in application\\exam_weatherapp\\weatherapp\\weatherapp_v1\\weatherapp_v1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{634BBF32-C467-4186-B9EA-5FC3016750A4}|WeatherApp_v1\\WeatherApp_v1.csproj|solutionrelative:weatherapp_v1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{634BBF32-C467-4186-B9EA-5FC3016750A4}|WeatherApp_v1\\WeatherApp_v1.csproj|c:\\users\\yassi\\desktop\\prog\\programming in application\\exam_weatherapp\\weatherapp\\weatherapp_v1\\weatherapp_v1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,19 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WeatherApp_v1\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WeatherApp_v1\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-22T12:58:41.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "WeatherApp_v1\\wwwroot\\js\\site.js",
               "ToolTip": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\wwwroot\\js\\site.js",
               "RelativeToolTip": "WeatherApp_v1\\wwwroot\\js\\site.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAABsAAAA",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAQwMsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-03-18T14:40:12.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "WeatherApp_v1\\Models\\ErrorViewModel.cs",
@@ -59,12 +76,11 @@
               "RelativeToolTip": "WeatherApp_v1\\Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T13:52:59.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T13:52:59.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "WeatherApp_v1\\Views\\_ViewStart.cshtml",
@@ -72,12 +88,11 @@
               "RelativeToolTip": "WeatherApp_v1\\Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-18T13:52:49.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T13:52:49.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "WeatherApp_v1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -85,18 +100,17 @@
               "RelativeToolTip": "WeatherApp_v1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-18T13:49:11.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T13:49:11.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WeatherApp_v1\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\Controllers\\HomeController.cs*",
-              "RelativeToolTip": "WeatherApp_v1\\Controllers\\HomeController.cs*",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwB4AAAAAAAAA",
+              "ToolTip": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WeatherApp_v1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T10:59:16.457Z",
               "EditorCaption": ""
@@ -107,8 +121,8 @@
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WeatherApp_v1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "WeatherApp_v1\\Views\\Shared\\_Layout.cshtml*",
+              "ToolTip": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WeatherApp_v1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-15T10:59:16.526Z",
