@@ -1,0 +1,170 @@
+﻿@model WeatherViewModel
+
+@*--------------FORECAST 5 DAYS CARDS---------------*@
+<div id="forecast">
+    <h2>Weather Forecast</h2>
+    <div class="row" id="forecastCards">
+        <!-- Weather forecast cards will be dynamically added here -->
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+
+        function kelvinToCelsius(kelvin) {
+            return kelvin - 273.15; // Conversion formula from Kelvin to Celsius
+        }
+
+
+        function mphToKmh(mph) {
+            return mph * 1.60934; // Conversion formula from mph to km/h
+        }
+
+
+        function updateWeatherDisplay(currentWeather) {
+            const weatherElements = $("#weatherDetails p");
+            weatherElements.each(function (index, element) {
+                const property = $(element).data("property");
+                if (property && currentWeather.main.hasOwnProperty(property)) {
+                    let value = currentWeather.main[property];
+                    if (property === "temp" || property === "feels_like" || property === "temp_min" || property === "temp_max") {
+                        // Convert temperature properties from Kelvin to Celsius
+                        value = kelvinToCelsius(value).toFixed(0); // Round to 2 decimal places
+                        value += "°C"; // Add Celsius unit
+                    }
+                    $(element).text(`${$(element).text()} ${value}`); // Append weather data to the existing text
+                } else if (property === "speed" && currentWeather.wind.hasOwnProperty("speed")) {
+                    const kmhSpeed = mphToKmh(currentWeather.wind.speed).toFixed(0); // Convert wind speed to km/h and round to 0 decimal places
+                    $(element).text(`${$(element).text()} ${kmhSpeed} km/h`); // Append wind speed in km/h to the existing text
+                }
+            });
+            $("#weatherDetails").show(); // Show the weather details once the data is updated
+
+            // Set the current location in the h1 tag
+            $("#currentLocation").text(currentWeather.name);
+            // Set the current temperature in the span tag
+            $("#currentTemperature").text(`${kelvinToCelsius(currentWeather.main.temp).toFixed(0)}°C`); // Convert and display temperature in Celsius
+
+            // Set the weather icon
+            if (currentWeather.weather.length > 0) {
+                const iconUrl = "https://openweathermap.org/img/wn/" + currentWeather.weather[0].icon + "@@2x.png";
+                $("#weatherIcon").attr("src", iconUrl);
+            }
+        }
+
+
+
+        function updateForecastDisplay(forecastWeather) {
+            console.log("Received weather forecast data:", forecastWeather);
+            const forecastCards = $("#forecastCards");
+            forecastCards.empty(); // Clear previous forecast cards
+
+        
+            if (forecastWeather.list && forecastWeather.list.length > 0) {
+                forecastWeather.list.forEach(function (datum) {
+                    if (datum.weather && datum.weather.length > 0) { // Check if weather data exists
+                        // Parse dt_txt string into a Date object
+                        const date = new Date(datum.dt_txt);
+
+                        // Get the day of the week
+                        const dayOfWeek = date.toLocaleDateString('en-US', { weekday: 'long' });
+
+                        // Get the hour in 24-hour format
+                        const hour = date.getHours();
+
+                        // Set the icon url:
+                        const iconUrl = `https://openweathermap.org/img/wn/${datum.weather[0].icon}@@2x.png`;
+
+                        const cardHtml = `
+                                            <div class="col-sm-2">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h5 class= "card-title">${hour}:00</h5>
+                                                        <h4 class="card-title">${dayOfWeek}</h4>
+                                                        <!-- SET in commentar bcs it is not need it at the moment -->
+                                                        <!-- <p>${forecastWeather.city.name}</p> -->
+                                                        <img src="${iconUrl}" alt="${datum.weather[0].icon}">
+                                                        <p> ${datum.weather[0].description}</p>
+                                                                    <p>${kelvinToCelsius(datum.main.temp_max).toFixed(0)}°C - ${kelvinToCelsius(datum.main.temp_min).toFixed(0)}°C</p>
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                            </div>`;
+                        forecastCards.append(cardHtml);
+                    }
+                     else {
+                        console.log("Weather data is missing for the forecast item:", datum);
+                    }
+                });
+            } else {
+                forecastCards.append("<p>No forecast data available.</p>");
+            }
+        }
+
+
+        function getWeatherByLocation(lat, lon) {
+            $.ajax({
+                url: "/Home/GetWeatherByLocation",
+                data: { latitude: lat, longitude: lon },
+                type: "GET",
+                success: function (data) {
+                    console.log("Received weather data:", data);
+                    updateWeatherDisplay(data);
+                },
+                error: function () {
+                    console.error("Error retrieving weather data.");
+                    $("#weatherInfo").html("<p>Error: Unable to fetch weather data.</p>");
+                }
+            });
+
+            // Fetch weather forecast data
+            $.ajax({
+                url: "/Home/GetWeatherForecastByLocation",
+                data: { latitude: lat, longitude: lon },
+                type: "GET",
+                success: function (data) {
+                    console.log("Received weather forecast data:", data);
+                    updateForecastDisplay(data);
+                },
+                error: function () {
+                    console.error("Error retrieving weather forecast data.");
+                    $("#weatherInfo").html("<p>Error: Unable to fetch weatherforecast data.</p>");
+
+                }
+            });
+            function getWeatherData(lat, lon) {
+                $.ajax({
+                    url: "/Home/GetWeatherData",
+                    data: { latitude: lat, longitude: lon },
+                    type: "GET",
+                    success: function (data) {
+                        console.log("Received weather data:", data);
+                        updateWeatherDisplay(data.currentWeather);
+                        updateForecastDisplay(data.forecastWeather);
+                    },
+                    error: function () {
+                        console.error("Error retrieving weather data.");
+                        $("#weatherInfo").html("<p>Error: Unable to fetch weather data.</p>");
+                    }
+                });
+            }
+
+
+        }
+
+        $(document).ready(function () {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    const latitude = position.coords.latitude;
+                    const longitude = position.coords.longitude;
+                    getWeatherByLocation(latitude, longitude);
+                }, function (error) {
+                    console.error("Error:", error.message);
+                    $("#weatherInfo").html("<p>Unable to access your location.</p>");
+                });
+            } else {
+                $("#weatherInfo").html("<p>Geolocation is not supported by this browser.</p>");
+            }
+        });
+    </script>
+}
