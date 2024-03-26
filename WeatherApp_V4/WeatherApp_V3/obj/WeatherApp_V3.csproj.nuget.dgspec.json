@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD:WeatherApp_V4/WeatherApp_V3/obj/WeatherApp_V3.csproj.nuget.dgspec.json
     "C:\\Users\\David\\Desktop\\Software_App\\WeatherApp_Versions\\WeatherApp_V4\\WeatherApp_V3\\WeatherApp_V3.csproj": {}
   },
   "projects": {
@@ -12,12 +13,25 @@
         "projectPath": "C:\\Users\\David\\Desktop\\Software_App\\WeatherApp_Versions\\WeatherApp_V4\\WeatherApp_V3\\WeatherApp_V3.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\David\\Desktop\\Software_App\\WeatherApp_Versions\\WeatherApp_V4\\WeatherApp_V3\\obj\\",
+=======
+    "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\WeatherApp_v1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\WeatherApp_v1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\WeatherApp_v1.csproj",
+        "projectName": "WeatherApp_v1",
+        "projectPath": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\WeatherApp_v1.csproj",
+        "packagesPath": "C:\\Users\\yassi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yassi\\Desktop\\prog\\Programming in application\\Exam_WeatherApp\\WeatherApp\\WeatherApp_v1\\WeatherApp_v1\\obj\\",
+>>>>>>> 80ebecb7d425f4b444677036e2569e361778d3df:WeatherApp_v1/WeatherApp_v1/obj/WeatherApp_v1.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yassi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +53,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -63,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -130,6 +130,10 @@ form.addEventListener('submit', (e) => {
     //console.log(nameCountry.value);
 })
 
+// Deze functie maakt een webadres met de opgegeven stad, land .
+// Daarna vraagt (de API) om de informatie te krijgen.
+// Als de stad niet wordt gevonden, wordt een foutbericht weergegeven.
+
 function callAPI(city, country){
     
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiKey}`;
@@ -151,6 +155,11 @@ function callAPI(city, country){
             console.log(error);
         })
 }
+
+// De showWeather-functie krijgt de weergegevens als invoer en zoekt belangrijke informatie.
+//  zoals de naam van de stad, de temperatuur .
+//  Daarna maakt het dynamisch HTML-inhoud om de weergegevens te tonen.
+// en voegt dit toe aan een speciaal deel van de webpagina .
 
 function showWeather(data){
     const {name, main:{temp, temp_min, temp_max}, weather:[arr]} = data;
@@ -177,6 +186,9 @@ function showWeather(data){
     console.log(arr.icon); */
 }
 
+
+// De showError-functie laat een foutmelding zien op het formulier als er iets misging bij het ophalen van de weergegevens
+
 function showError(message){
     //console.log(message);
     const alert = document.createElement('p');
@@ -189,9 +201,15 @@ function showError(message){
     }, 3000);
 }
 
+// Deze eenvoudige functie converteert een temperatuurwaarde van Kelvin naar Celsius.
+
+
 function kelvinToCelsius(temp){
     return parseInt(temp - 273.15);
 }
+
+// Deze functie wist alle inhoud uit het DOM-element .
+
 
 function clearHTML(){
     result.innerHTML = '';
