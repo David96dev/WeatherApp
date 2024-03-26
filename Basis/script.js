@@ -130,9 +130,7 @@ form.addEventListener('submit', (e) => {
     //console.log(nameCountry.value);
 })
 
-// Deze functie maakt een webadres met de opgegeven stad, land .
-// Daarna vraagt (de API) om de informatie te krijgen.
-// Als de stad niet wordt gevonden, wordt een foutbericht weergegeven.
+
 
 function callAPI(city, country){
     
@@ -156,10 +154,7 @@ function callAPI(city, country){
         })
 }
 
-// De showWeather-functie krijgt de weergegevens als invoer en zoekt belangrijke informatie.
-//  zoals de naam van de stad, de temperatuur .
-//  Daarna maakt het dynamisch HTML-inhoud om de weergegevens te tonen.
-// en voegt dit toe aan een speciaal deel van de webpagina .
+
 
 function showWeather(data){
     const {name, main:{temp, temp_min, temp_max}, weather:[arr]} = data;
