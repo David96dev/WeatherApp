@@ -7,74 +7,41 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-<<<<<<< HEAD:WeatherApp_V4/WeatherApp_V3/obj/Debug/net8.0/WeatherApp_V3.GeneratedMSBuildEditorConfig.editorconfig
 build_property.RootNamespace = WeatherApp_V3
 build_property.RootNamespace = WeatherApp_V3
-build_property.ProjectDir = C:\Users\David\Desktop\Software_App\WeatherApp_Versions\WeatherApp_V4\WeatherApp_V3\
-=======
-build_property.RootNamespace = WeatherApp_v1
-build_property.RootNamespace = WeatherApp_v1
-build_property.ProjectDir = C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1\
->>>>>>> 80ebecb7d425f4b444677036e2569e361778d3df:WeatherApp_v1/WeatherApp_v1/obj/Debug/net8.0/WeatherApp_v1.GeneratedMSBuildEditorConfig.editorconfig
+build_property.ProjectDir = C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_V4\WeatherApp_V3\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-<<<<<<< HEAD:WeatherApp_V4/WeatherApp_V3/obj/Debug/net8.0/WeatherApp_V3.GeneratedMSBuildEditorConfig.editorconfig
-build_property.MSBuildProjectDirectory = C:\Users\David\Desktop\Software_App\WeatherApp_Versions\WeatherApp_V4\WeatherApp_V3
+build_property.MSBuildProjectDirectory = C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_V4\WeatherApp_V3
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/David/Desktop/Software_App/WeatherApp_Versions/WeatherApp_V4/WeatherApp_V3/Views/Home/Forecast.cshtml]
+[C:/Users/yassi/Desktop/prog/Programming in application/Exam_WeatherApp/WeatherApp/WeatherApp_V4/WeatherApp_V3/Views/Home/Forecast.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3JlY2FzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/David/Desktop/Software_App/WeatherApp_Versions/WeatherApp_V4/WeatherApp_V3/Views/Home/Index.cshtml]
+[C:/Users/yassi/Desktop/prog/Programming in application/Exam_WeatherApp/WeatherApp/WeatherApp_V4/WeatherApp_V3/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/David/Desktop/Software_App/WeatherApp_Versions/WeatherApp_V4/WeatherApp_V3/Views/Shared/Error.cshtml]
+[C:/Users/yassi/Desktop/prog/Programming in application/Exam_WeatherApp/WeatherApp/WeatherApp_V4/WeatherApp_V3/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/David/Desktop/Software_App/WeatherApp_Versions/WeatherApp_V4/WeatherApp_V3/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/yassi/Desktop/prog/Programming in application/Exam_WeatherApp/WeatherApp/WeatherApp_V4/WeatherApp_V3/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/David/Desktop/Software_App/WeatherApp_Versions/WeatherApp_V4/WeatherApp_V3/Views/_ViewImports.cshtml]
+[C:/Users/yassi/Desktop/prog/Programming in application/Exam_WeatherApp/WeatherApp/WeatherApp_V4/WeatherApp_V3/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/David/Desktop/Software_App/WeatherApp_Versions/WeatherApp_V4/WeatherApp_V3/Views/_ViewStart.cshtml]
+[C:/Users/yassi/Desktop/prog/Programming in application/Exam_WeatherApp/WeatherApp/WeatherApp_V4/WeatherApp_V3/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/David/Desktop/Software_App/WeatherApp_Versions/WeatherApp_V4/WeatherApp_V3/Views/Shared/_Layout.cshtml]
-=======
-build_property.MSBuildProjectDirectory = C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_v1\WeatherApp_v1
-build_property._RazorSourceGeneratorDebug = 
-
-[C:/Users/yassi/Desktop/prog/Programming in application/Exam_WeatherApp/WeatherApp/WeatherApp_v1/WeatherApp_v1/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/yassi/Desktop/prog/Programming in application/Exam_WeatherApp/WeatherApp/WeatherApp_v1/WeatherApp_v1/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/yassi/Desktop/prog/Programming in application/Exam_WeatherApp/WeatherApp/WeatherApp_v1/WeatherApp_v1/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/yassi/Desktop/prog/Programming in application/Exam_WeatherApp/WeatherApp/WeatherApp_v1/WeatherApp_v1/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/yassi/Desktop/prog/Programming in application/Exam_WeatherApp/WeatherApp/WeatherApp_v1/WeatherApp_v1/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/yassi/Desktop/prog/Programming in application/Exam_WeatherApp/WeatherApp/WeatherApp_v1/WeatherApp_v1/Views/Shared/_Layout.cshtml]
->>>>>>> 80ebecb7d425f4b444677036e2569e361778d3df:WeatherApp_v1/WeatherApp_v1/obj/Debug/net8.0/WeatherApp_v1.GeneratedMSBuildEditorConfig.editorconfig
+[C:/Users/yassi/Desktop/prog/Programming in application/Exam_WeatherApp/WeatherApp/WeatherApp_V4/WeatherApp_V3/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lfoddkldsb

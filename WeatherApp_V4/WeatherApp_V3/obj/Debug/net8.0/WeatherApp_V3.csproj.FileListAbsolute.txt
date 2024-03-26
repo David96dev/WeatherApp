@@ -58,3 +58,14 @@ C:\Users\David\Desktop\Software_App\WeatherApp_Versions\WeatherApp_V4\WeatherApp
 C:\Users\David\Desktop\Software_App\WeatherApp_Versions\WeatherApp_V4\WeatherApp_V3\obj\Debug\net8.0\WeatherApp_V3.pdb
 C:\Users\David\Desktop\Software_App\WeatherApp_Versions\WeatherApp_V4\WeatherApp_V3\obj\Debug\net8.0\WeatherApp_V3.genruntimeconfig.cache
 C:\Users\David\Desktop\Software_App\WeatherApp_Versions\WeatherApp_V4\WeatherApp_V3\obj\Debug\net8.0\ref\WeatherApp_V3.dll
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_V4\WeatherApp_V3\obj\Debug\net8.0\WeatherApp_V3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_V4\WeatherApp_V3\obj\Debug\net8.0\WeatherApp_V3.AssemblyInfoInputs.cache
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_V4\WeatherApp_V3\obj\Debug\net8.0\WeatherApp_V3.AssemblyInfo.cs
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_V4\WeatherApp_V3\obj\Debug\net8.0\WeatherApp_V3.csproj.CoreCompileInputs.cache
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_V4\WeatherApp_V3\obj\Debug\net8.0\WeatherApp_V3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_V4\WeatherApp_V3\obj\Debug\net8.0\WeatherApp_V3.RazorAssemblyInfo.cache
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_V4\WeatherApp_V3\obj\Debug\net8.0\WeatherApp_V3.RazorAssemblyInfo.cs
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_V4\WeatherApp_V3\obj\Debug\net8.0\WeatherApp_V3.sourcelink.json
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_V4\WeatherApp_V3\obj\Debug\net8.0\WeatherApp_V3.dll
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_V4\WeatherApp_V3\obj\Debug\net8.0\refint\WeatherApp_V3.dll
+C:\Users\yassi\Desktop\prog\Programming in application\Exam_WeatherApp\WeatherApp\WeatherApp_V4\WeatherApp_V3\obj\Debug\net8.0\WeatherApp_V3.pdb
