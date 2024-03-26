@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "WeatherApp_V3.Controllers.WeatherApiController",
+    "Method": "GetWeather",
+    "RelativePath": "api/WeatherApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
